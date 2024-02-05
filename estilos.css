@@ -1,0 +1,38 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1,h3{
+    text-align: center;
+}
+
+h2{
+    color: #000000;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 25%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 14px;
+    font-weight: bold;
+}

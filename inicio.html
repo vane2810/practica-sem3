@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 3</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Práctica Semana 3</h1>
+    <h3>Olga Vanessa Sorto Fuentes (SMSS055722)</h3>
+
+    <!--Ejercicio 1-->
+    <div>
+        <h2>Calcular Velocidad</h2>
+        <label for="distancia">Distancia (km): </label>
+        <input type="text" id="distancia"><br>
+        <label for="tiempo">Tiempo (minutos): </label>
+        <input type="text" id="tiempo"><br>
+        <button onclick="Velocidad()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+    
+    <!--Ejercicio 2-->
+    <div>
+        <h2>Tipo de Triángulo</h2>
+        <label for="lad1">Ingrese un lado: </label>
+        <input type="text" id="lad1"><br>
+        <label for="lad2">Ingrese el otro lado: </label>
+        <input type="text" id="lad2"><br>
+        <label for="lad3">Ingrese el último lado: </label>
+        <input type="text" id="lad3"><br>
+        <button onclick="Triangulo()">Calcular</button>
+        <p id="respuesta"></p>
+    </div>
+    
+    <!--Ejercicio 3-->
+    <div>
+        <h2>Calculadora</h2>
+        <label for="numero1:">Ingrese un número: </label>
+        <input type="text" id="numero1"><br>
+        <label for="numero2:">Ingrese un número: </label>
+        <input type="text" id="numero2"><br>
+        <button onclick="Calculadora()">Calcular</button>
+        <p id="suma"></p>
+        <p id="resta"></p>
+        <p id="multi"></p>
+        <p id="div"></p>
+    </div>
+   
+    <!--Ejercicio 4-->
+    <div>
+        <h2>Calculadora Números Primos</h2>
+        <label for="numero:">Ingrese un número: </label>
+        <input type="text" id="numero"><br>
+        <button onclick="NumPrimo()">Calcular</button>
+        <p id="resul"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
